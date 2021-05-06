@@ -2,7 +2,7 @@ package Test.testing;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.springframework.core.env.SystemEnvironmentPropertySource;
+
 
 public class main {
 
@@ -15,6 +15,8 @@ public class main {
 		driver.get("https://www.google.com/");
 		
 		driver.close();
+		
+		
 
 	}
 
